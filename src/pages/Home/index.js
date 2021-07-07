@@ -1,8 +1,16 @@
 import React from 'react'
+import Card from '../../components/Card'
 
 function Home () {
   return (
-    <p>Lorem Ipsum Dolor sit amet</p>
+    <>
+      <Card>
+        <p>Lorem Ipsum Dolor sit amet</p>
+      </Card>
+      <Card>
+        <p>Lorem Ipsum Dolor sit amet</p>
+      </Card>
+    </>
   )
 }
 
